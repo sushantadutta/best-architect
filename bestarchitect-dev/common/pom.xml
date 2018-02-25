@@ -17,7 +17,15 @@
     <url>http://www.bestarchitect.com</url>
 
     <modules>
-
+        <module>bestarchitect-api-signing</module>
+        <module>bestarchitect-logging</module>
+        <module>bestarchitect-model</module>
+        <module>bestarchitect-exception</module>
+        <module>bestarchitect-messaging</module>
+        <module>bestarchitect-persistence</module>
+        <module>bestarchitect-utils</module>
+        <module>bestarchitect-validation</module>
+        <module>bestarchitect-security</module>
     </modules>
 
 </project>

@@ -48,7 +48,7 @@
     </properties>
 
     <modules>
-        <!-- <module>audit_dev</module> -->
+        <module>bestarchitect-dev</module>
     </modules>
 
     <dependencies>
