@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.bestarchitect</groupId>
+        <artifactId>bestarchitect-dev</artifactId>
+        <version>${bestarchitect.release.version}</version>
+    </parent>
+    <name>Best Architect Common Parent POM</name>
+    <groupId>com.bestarchitect</groupId>
+    <artifactId>bestarchitect-common</artifactId>
+    <version>${bestarchitect.release.version}</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>bestarchitect-validation</module>
+        <module>bestarchitect-exception</module>
+        <module>bestarchitect-model</module>
+        <module>bestarchitect-messaging</module>
+        <module>bestarchitect-persisitence</module>
+        <module>bestarchitect-logging</module>
+    </modules>
+
+
+</project>

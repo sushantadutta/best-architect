@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.bestarchitect</groupId>
-    <artifactId>best-architect-root-pom</artifactId>
+    <artifactId>bestarchitect-root-pom</artifactId>
     <version>${bestarchitect.release.version}</version>
     <packaging>pom</packaging>
     <name>Best Architect Root POM</name>
