@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.bestarchitect</groupId>
     <artifactId>best-architect-root-pom</artifactId>
-    <version>${bestarchitect.relese.version}</version>
+    <version>${bestarchitect.release.version}</version>
     <packaging>pom</packaging>
     <name>Best Architect Root POM</name>
     <organization>
@@ -21,7 +21,7 @@
     </parent>
     <properties>
         <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
-        <bestarchitect.relese.version>1.0.0.0-SNAPSHOT</bestarchitect.relese.version>
+        <bestarchitect.release.version>1.0.0.0-SNAPSHOT</bestarchitect.release.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
