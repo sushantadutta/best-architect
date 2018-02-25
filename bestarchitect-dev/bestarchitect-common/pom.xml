@@ -21,6 +21,7 @@
         <module>bestarchitect-messaging</module>
         <module>bestarchitect-persisitence</module>
         <module>bestarchitect-logging</module>
+        <module>bestarchitect-security</module>
     </modules>
 
 
