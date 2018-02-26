@@ -18,11 +18,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.philips.dhp</groupId>
-			<artifactId>audit-model</artifactId>
-			<version>${logaudit.release.version}</version>
-		</dependency>
+
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
