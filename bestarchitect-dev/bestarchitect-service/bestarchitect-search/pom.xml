@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.bestarchitect</groupId>
         <artifactId>bestarchitect-service</artifactId>
-        <version>1.0.0.0-SNAPSHOT</version>
+        <version>${bestarchitect.release.version}</version>
     </parent>
     <name>Best Architect Search</name>
     <groupId>com.bestarchitect</groupId>

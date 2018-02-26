@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.bestarchitect</groupId>
         <artifactId>bestarchitect-common</artifactId>
-        <version>1.0.0.0-SNAPSHOT</version>
+        <version>${bestarchitect.release.version}</version>
     </parent>
     <name>Best Architect Messaging</name>
     <artifactId>bestarchitect-messaging</artifactId>
