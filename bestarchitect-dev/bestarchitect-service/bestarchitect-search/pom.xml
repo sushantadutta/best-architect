@@ -13,6 +13,36 @@
     <groupId>com.bestarchitect</groupId>
     <artifactId>bestarchitect-search</artifactId>
     <version>${bestarchitect.release.version}</version>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.bestarchitect</groupId>
+            <artifactId>bestarchitect-messaging</artifactId>
+            <version>${bestarchitect.release.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bestarchitect</groupId>
+            <artifactId>bestarchitect-security</artifactId>
+            <version>${bestarchitect.release.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bestarchitect</groupId>
+            <artifactId>bestarchitect-logging</artifactId>
+            <version>${bestarchitect.release.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bestarchitect</groupId>
+            <artifactId>bestarchitect-validation</artifactId>
+            <version>${bestarchitect.release.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bestarchitect</groupId>
+            <artifactId>bestarchitect-persisitence</artifactId>
+            <version>${bestarchitect.release.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

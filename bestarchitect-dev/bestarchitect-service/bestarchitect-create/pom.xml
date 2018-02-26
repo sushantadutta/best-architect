@@ -14,5 +14,54 @@
     <artifactId>bestarchitect-create</artifactId>
     <version>${bestarchitect.release.version}</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.bestarchitect</groupId>
+            <artifactId>bestarchitect-messaging</artifactId>
+            <version>${bestarchitect.release.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bestarchitect</groupId>
+            <artifactId>bestarchitect-security</artifactId>
+            <version>${bestarchitect.release.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bestarchitect</groupId>
+            <artifactId>bestarchitect-logging</artifactId>
+            <version>${bestarchitect.release.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bestarchitect</groupId>
+            <artifactId>bestarchitect-validation</artifactId>
+            <version>${bestarchitect.release.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bestarchitect</groupId>
+            <artifactId>bestarchitect-persisitence</artifactId>
+            <version>${bestarchitect.release.version}</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>org.springframework.maven.milestone</id>
+            <name>Spring Framework Maven Milestone Repository</name>
+            <url>http://maven.springframework.org/milestone</url>
+        </repository>
+    </repositories>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
 
 </project>
