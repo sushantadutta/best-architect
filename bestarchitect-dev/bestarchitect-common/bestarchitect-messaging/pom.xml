@@ -10,9 +10,13 @@
         <version>1.0.0.0-SNAPSHOT</version>
     </parent>
     <name>Best Architect Messaging</name>
-    <groupId>com.bestarchitect</groupId>
     <artifactId>bestarchitect-messaging</artifactId>
-    <version>1.0.0.0-SNAPSHOT</version>
-
+    <version>${bestarchitect.release.version}</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

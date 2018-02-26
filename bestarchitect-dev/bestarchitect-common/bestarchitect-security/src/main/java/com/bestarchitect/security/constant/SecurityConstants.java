@@ -1,4 +1,4 @@
-package com.bestarchitect.security;
+package com.bestarchitect.security.constant;
 
 public class SecurityConstants {
     public static final String HTTPS_PORT = "";
