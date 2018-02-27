@@ -3,6 +3,7 @@
  */
 package com.bestarchitect;
 
+import com.bestarchitect.searchservice.BestArchitectSearchApplication;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -28,7 +29,7 @@ public class BestArchitectSearchApplicationTest {
 	}
 
 	/**
-	 * Test method for {@link com.bestarchitect.BestArchitectSearchApplication#main(java.lang.String[])}.
+	 * Test method for {@link BestArchitectSearchApplication#main(java.lang.String[])}.
 	 */
 	@Test
 	public void testMain() {
