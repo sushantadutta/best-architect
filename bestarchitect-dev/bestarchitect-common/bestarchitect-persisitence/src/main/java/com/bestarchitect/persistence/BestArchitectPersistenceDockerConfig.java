@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @Profile("docker")
-public class BestPersistenceDockerConfig {
+public class BestArchitectPersistenceDockerConfig {
 
     private static final String DOCKER_AUDIT_DRIVER_CLASS_NAME = "audit.driverClassName";
 
