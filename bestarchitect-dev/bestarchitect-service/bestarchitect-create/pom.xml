@@ -40,11 +40,6 @@
             <artifactId>bestarchitect-validation</artifactId>
             <version>${bestarchitect.release.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.bestarchitect</groupId>
-            <artifactId>bestarchitect-persisitence</artifactId>
-            <version>${bestarchitect.release.version}</version>
-        </dependency>
     </dependencies>
 
     <repositories>
@@ -62,6 +57,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>

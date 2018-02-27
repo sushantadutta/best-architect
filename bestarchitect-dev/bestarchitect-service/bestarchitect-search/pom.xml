@@ -20,11 +20,6 @@
         </dependency>
         <dependency>
             <groupId>com.bestarchitect</groupId>
-            <artifactId>bestarchitect-messaging</artifactId>
-            <version>${bestarchitect.release.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.bestarchitect</groupId>
             <artifactId>bestarchitect-security</artifactId>
             <version>${bestarchitect.release.version}</version>
         </dependency>

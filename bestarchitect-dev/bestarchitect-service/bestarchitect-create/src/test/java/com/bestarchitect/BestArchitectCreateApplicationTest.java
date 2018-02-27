@@ -3,6 +3,7 @@
  */
 package com.bestarchitect;
 
+import com.bestarchitect.createservice.BestArchitectCreateApplication;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -28,8 +29,8 @@ public class BestArchitectCreateApplicationTest {
 	}
 
 	/**
-	 * Test method for {@link com.bestarchitect.BestArchitectCreateApplication#main(java.lang.String[])}.
-	 */
+     * Test method for {@link BestArchitectCreateApplication#main(java.lang.String[])}.
+     */
 	@Test
 	public void testMain() {
 

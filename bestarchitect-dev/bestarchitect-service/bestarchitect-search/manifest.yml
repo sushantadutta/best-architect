@@ -1,0 +1,11 @@
+applications:
+- name: bestarchitect-search
+  memory: 2048M
+  instances: 1
+  host: bestarchitect-search
+  path: target/bestarchitect-search-service-1.0.0.0-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  timeout: 180
+env: 
+  SPRING_PROFILES_ACTIVE: cloud
+services:

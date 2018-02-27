@@ -1,0 +1,11 @@
+applications:
+- name: bestarchitect-create
+  memory: 2048M
+  instances: 1
+  host: bestarchitect-create
+  path: target/bestarchitect-create-service-1.0.0.0-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  timeout: 180
+env:
+  SPRING_PROFILES_ACTIVE: cloud
+services:
