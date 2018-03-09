@@ -19,9 +19,7 @@ public class HttpMethodAndResourceValidationProcessor extends RequestProcessor {
     private final Map<String, List<HttpMethod>> allowedMethodsPerResource = new HashMap<>();
 
     public HttpMethodAndResourceValidationProcessor() {
-        allowedMethodsPerResource.put(CreateServiceConstants.FHIR_CREATE_RESOURCE_URL,
-                Arrays.asList(HttpMethod.POST, HttpMethod.OPTIONS, HttpMethod.HEAD));
-        allowedMethodsPerResource.put(CreateServiceConstants.RFC_CREATE_RESOURCE_URL,
+        allowedMethodsPerResource.put(CreateServiceConstants.CREATE_RESOURCE_URL,
                 Arrays.asList(HttpMethod.POST, HttpMethod.OPTIONS, HttpMethod.HEAD));
     }
 

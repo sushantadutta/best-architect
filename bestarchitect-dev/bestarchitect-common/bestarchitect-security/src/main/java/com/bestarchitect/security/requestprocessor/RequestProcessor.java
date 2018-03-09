@@ -9,6 +9,7 @@ import org.springframework.http.MediaType;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 import java.util.List;
 
 public abstract class RequestProcessor {
@@ -20,7 +21,7 @@ public abstract class RequestProcessor {
 
 	private ErrorResponseCreator errorResponseCreator;
 
-	private List<HttpMethod> applicableMethods;
+	private List<HttpMethod> applicableMethods = Arrays.asList(HttpMethod.POST);
 
 	public boolean process(final HttpServletRequest request, final HttpServletResponse response) {
 		boolean isValid = true;

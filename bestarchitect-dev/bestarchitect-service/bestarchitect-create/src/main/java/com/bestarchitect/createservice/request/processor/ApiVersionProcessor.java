@@ -15,7 +15,7 @@ public class ApiVersionProcessor extends RequestProcessor {
     @Override
     protected boolean isValid(HttpServletRequest request, HttpServletResponse response) {
         String path = stripTrailingSlashesFromPath(request.getServletPath());
-        if (path.equals(CreateServiceConstants.FHIR_CREATE_RESOURCE_URL)) {
+        if (path.equals(CreateServiceConstants.CREATE_RESOURCE_URL)) {
             String apiVersion = request.getHeader("api-version");
             return apiVersion != null && apiVersion.equals(API_VERSION_VALUE);
 

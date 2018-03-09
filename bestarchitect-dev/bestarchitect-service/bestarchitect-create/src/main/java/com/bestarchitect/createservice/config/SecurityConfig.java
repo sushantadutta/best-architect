@@ -4,7 +4,6 @@ import com.bestarchitect.createservice.request.processor.RestRequestPipeLineFact
 import com.bestarchitect.security.filter.RequestValidationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -14,7 +13,6 @@ import org.springframework.security.web.csrf.CsrfFilter;
 
 @Configuration
 @EnableWebSecurity
-@ComponentScan(basePackages = {"com.bestarchitect.createservice.request.processor"})
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
@@ -38,7 +36,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionCreationPolicy(SessionCreationPolicy.NEVER)
                 .and()
                 .formLogin().disable()
-                .logout().disable().csrf().disable();
+                .logout().disable()
+                .csrf().disable();
         http.addFilterBefore(requestValidationFilter(), CsrfFilter.class);
 
     }
